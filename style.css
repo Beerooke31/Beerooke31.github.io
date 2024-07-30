@@ -11,3 +11,15 @@ Fonts
 -Bricolage Grotesque
 -Open Sans
 */
+h1,
+h2,
+h3 {
+  
+}
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100px;
+}
