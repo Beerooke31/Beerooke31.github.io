@@ -11,15 +11,81 @@ Fonts
 -Bricolage Grotesque
 -Open Sans
 */
+
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Dosis:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  background-color: FFFBFB;
+}
+
 h1,
 h2,
 h3 {
-  
-}
-ul {
-  list-style-type: none;
+  font-family: "Bricolage Grotesque", sans-serif;
 }
 
-img {
-  width: 100px;
+p {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  font-family: "Open Sans", sans-serif;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.beeLogo {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orca,
+.snowLeopard,
+.redPanda {
+  width: 200px;
+  padding: 50px;
+  display: flex;
+}
+
+.invertocat,
+.linkedIn {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  /* display: flex;
+  /* flex-wrap: wrap;
+  justify-content: center; */ */
+}
+
+.purpleBar {
+  height: 40px;
+  background-color: #d6c8f9;
+}
+
+.pinkBar {
+  height: 40px;
+  background-color: #eb84dc;
+}
+
+.yellowBar {
+  margin-top: 50px;
+  height: 40px;
+  width: 600px;
+  background-color: #fafeae;
+}
+
+.projectOne,
+.projectTwo,
+.projectThree {
+  display: flex;
+  flex-wrap: wrap;
+  border-color: #8064ce;
+  border: 10px;
+  margin: 50px;
 }
