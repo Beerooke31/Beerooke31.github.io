@@ -24,10 +24,9 @@ h3 {
   font-family: "Bricolage Grotesque", sans-serif;
 }
 
-p {
+p,
+form {
   font-family: "Open Sans", sans-serif;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 ul {
@@ -40,9 +39,9 @@ ul {
 .beeLogo {
   width: 200px;
   height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .orca,
@@ -51,6 +50,7 @@ ul {
   width: 200px;
   padding: 50px;
   display: flex;
+  border-radius: 20%;
 }
 
 .invertocat,
@@ -58,9 +58,6 @@ ul {
   width: 50px;
   height: 50px;
   padding: 10px;
-  /* display: flex;
-  /* flex-wrap: wrap;
-  justify-content: center; */ */
 }
 
 .purpleBar {
@@ -74,10 +71,18 @@ ul {
 }
 
 .yellowBar {
-  margin-top: 50px;
   height: 40px;
   width: 600px;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #fafeae;
+}
+
+.bio {
+  text-align: center;
 }
 
 .projectOne,
@@ -85,7 +90,15 @@ ul {
 .projectThree {
   display: flex;
   flex-wrap: wrap;
-  border-color: #8064ce;
-  border: 10px;
+  background-color: #8064ce;
   margin: 50px;
+  border-radius: 15%;
+  width: 600px;
+  height: 400px;
+}
+
+.contact-form {
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 10px 20px;
 }
