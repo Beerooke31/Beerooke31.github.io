@@ -9,31 +9,38 @@
   <body>
     <header>
       <section class="hero">
-        <img
-          class="beeLogo"
-          src="Images/BABee.png"
-          alt="Brooke Ashleigh Bee Logo"
-        />
-      </section>
       <div class="purpleBar"></div>
-    </header>
-    <ul>
-      <li>Home</li>
-      <li>About Me</li>
-      <li>Contact</li>
-    </ul>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="index3.html">About Me</a>
+          </li>
+        <li>
+          <a href="index2.html">Contact</a>
+        </li>
+      </ul>
     <div class="pinkBar"></div>
+  </header>
+  </section>
     <div class="yellowBar"></div>
-    <section class="contact-form">
+    <section class="contactForm">
       <h2>Contact Me!</h2>
-      <form>
-        <label for="your-name">Your Name</label>
-        <input type="text" id="your-name" />
-        <label for="email">Your Email</label>
-        <input type="email" id="your-email" />
-        <label for="message">Your Message</label>
-        <textarea name="message-text" id="message" rows="10"></textarea>
-        <input type="submit" value="Submit" />
+      <form action="https://formspree.io/f/myzgwlgk" method="POST">
+        <div class="formField">
+          <label for="your-name">Your Name</label>
+          <input type="text" id="your-name" />
+        </div>
+        <div class="formField">
+          <label for="your-email">Your Email</label>
+          <input type="email" name="your-email" />
+        </div>
+        <div class="formField">
+          <label for="your-message">Your Message</label>
+          <textarea name="your-message" id="your-message"></textarea>
+          <button type="submit">Submit</button>
+        </div>
       </form>
     </section>
     <div class="yellowBar"></div>
@@ -47,7 +54,7 @@
             alt="The Github Invertocat logo: a white cat on a black background with one tentacle arm"
           />
         </a>
-        <a href="www.linkedin.com/in/brooke-pierson-94038a2a9">
+        <a href="https://linkedin.com/in/brooke-pierson-94038a2a9">
           <img
             class="linkedIn"
             src="Images/LI-In-Bug.png"

@@ -10,11 +10,11 @@
 
 Add a short paragraph describing the features below. What aesthetic and technical choices did you make?
 
-- [ ] At least one profile picture
-- [ ] Biography (at least 100 words)
-- [ ] Functional Contact Form
-- [ ] "Projects" section
-- [ ] Links to external sites, e.g. GitHub and LinkedIn.
+- [x] At least one profile picture
+- [x] Biography (at least 100 words)
+- [x] Functional Contact Form
+- [x] "Projects" section
+- [x] Links to external sites, e.g. GitHub and LinkedIn.
       ​
 
 ### Technical

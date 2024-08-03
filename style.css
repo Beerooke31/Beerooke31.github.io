@@ -14,13 +14,14 @@ Fonts
 
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Dosis:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-body {
+* {
   background-color: FFFBFB;
 }
 
 h1,
 h2,
-h3 {
+h3,
+ul {
   font-family: "Bricolage Grotesque", sans-serif;
 }
 
@@ -29,28 +30,55 @@ form {
   font-family: "Open Sans", sans-serif;
 }
 
+h1 {
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
 ul {
-  font-family: "Open Sans", sans-serif;
   list-style-type: none;
   display: flex;
   justify-content: space-around;
 }
 
-.beeLogo {
-  width: 200px;
+.profilePhoto {
+  width: 100px;
   height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 15%;
+}
+
+.bio {
+  padding: 15px;
+  text-align: left;
+  background-color: #8064ce;
+  margin: 50px 10px;
+  border-radius: 15%;
+  width: 360px;
+  height: 380px;
 }
 
 .orca,
 .snowLeopard,
 .redPanda {
   width: 200px;
-  padding: 50px;
-  display: flex;
+  height: 200px;
+  padding: 15px;
   border-radius: 20%;
+}
+
+.shakaGhost {
+  width: 500px;
+  height: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .invertocat,
@@ -67,17 +95,19 @@ ul {
 
 .purpleBar {
   height: 40px;
+  width: 100%;
   background-color: #d6c8f9;
 }
 
 .pinkBar {
   height: 40px;
+  width: 100%;
   background-color: #eb84dc;
 }
 
 .yellowBar {
   height: 40px;
-  width: 600px;
+  width: 70%;
   display: block;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -86,28 +116,73 @@ ul {
   background-color: #fafeae;
 }
 
-.bio {
-  text-align: center;
-}
-
 .projectOne,
 .projectTwo,
 .projectThree {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   background-color: #8064ce;
-  margin: 50px;
-  border-radius: 15%;
-  width: 600px;
-  height: 400px;
+  margin: 30px 10px;
+  border-radius: 18%;
+  width: 400px;
+  height: 300px;
 }
 
-.contact-form {
-  padding: 40px 20px;
-  border-radius: 10px;
-  margin: 10px 20px;
-  /* display: flex;
+.contactForm {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-   */
+  padding: 20px;
+}
+
+.formField {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="email"] {
+  padding: 10px;
+}
+
+input#your-name {
+  padding: 10px;
+}
+
+textarea#your-message {
+  padding: 60px;
+  margin: 10px;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+@media (min-width: 1100px) {
+  h1 {
+    text-align: center;
+  }
+
+  .profilePhoto {
+    height: 300px;
+    width: 200px;
+  }
+
+  .projects {
+    text-align: center;
+  }
+
+  .bio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .allProjects {
+    display: flex;
+    justify-content: space-between;
+  }
 }
